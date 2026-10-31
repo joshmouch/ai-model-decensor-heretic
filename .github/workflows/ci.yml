@@ -9,7 +9,7 @@ on:
 jobs:
   checks:
     name: Check and build (Python ${{ matrix.python-version }})
-    runs-on: ubuntu-latest
+    runs-on: ai-fleet-amd64
     strategy:
       fail-fast: false
       matrix:
